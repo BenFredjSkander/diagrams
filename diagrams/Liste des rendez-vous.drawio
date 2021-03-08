@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T06:44:41.200Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" version="14.4.4" etag="3DUnFtvZ4iZxk7wwEXs3" type="github"><diagram id="F06YX0Gikfw9FaYi5irx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-08T07:17:00.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="0UftdGXaqqLfAJFwa21B" version="14.4.4" type="github">
+  <diagram id="F06YX0Gikfw9FaYi5irx" name="Page-1">
+    <mxGraphModel dx="1038" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F_1ese8Ak_EiAbGZSu2L-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="F_1ese8Ak_EiAbGZSu2L-1" target="F_1ese8Ak_EiAbGZSu2L-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F_1ese8Ak_EiAbGZSu2L-1" value="Vendeur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F_1ese8Ak_EiAbGZSu2L-2" value="Réception des notifications&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F_1ese8Ak_EiAbGZSu2L-3" value="Authentification" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F_1ese8Ak_EiAbGZSu2L-4" value="Consultation des rendez-vous" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F_1ese8Ak_EiAbGZSu2L-5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="F_1ese8Ak_EiAbGZSu2L-4" target="F_1ese8Ak_EiAbGZSu2L-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="320" as="sourcePoint" />
+            <mxPoint x="490" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F_1ese8Ak_EiAbGZSu2L-6" value="Consulter les clients de sa tournée" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F_1ese8Ak_EiAbGZSu2L-7" value="Consulter les tournées par date&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F_1ese8Ak_EiAbGZSu2L-8" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=-0.023;exitY=0.423;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="F_1ese8Ak_EiAbGZSu2L-2" target="F_1ese8Ak_EiAbGZSu2L-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="370" as="sourcePoint" />
+            <mxPoint x="500" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F_1ese8Ak_EiAbGZSu2L-9" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="F_1ese8Ak_EiAbGZSu2L-7" target="F_1ese8Ak_EiAbGZSu2L-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="170" as="sourcePoint" />
+            <mxPoint x="460" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F_1ese8Ak_EiAbGZSu2L-10" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F_1ese8Ak_EiAbGZSu2L-6" target="F_1ese8Ak_EiAbGZSu2L-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F_1ese8Ak_EiAbGZSu2L-12" value="&lt;font style=&quot;font-size: 19px&quot;&gt;Liste des rendez-vous&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="60" width="200" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
